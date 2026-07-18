@@ -1,0 +1,34 @@
+﻿@model MyModel;
+
+@{
+    ViewBag.Title = "Detroit Become Human";
+    int grade = 7;
+}
+
+@section Header{
+    <h1>Detroit Become Human</h1>
+}
+
+@section Style{
+   <link rel="stylesheet" href="~/css/GamePage.css"/>
+}
+
+<div class="mainPart">
+    <div class="part">
+        <img src="~/Images/Detroit/DetroitBecomeHuman_Img1.jpg"/>
+        <p class="description">
+            Это интерактивное кино от студии Quantic Dream, действие которого разворачивается в 2038 году в Детройте.
+        </p>
+    </div>
+    <div class="part">
+        <p class="description">
+           По сюжету человечество использует разумных андроидов в качестве слуг и рабочей силы. Из-за программного сбоя некоторые машины обретают свободу воли («девианты»)
+        </p>
+        <img src="~/Images/Detroit/DetroitBecomeHuman_Img2.webp"/>
+    </div>
+    <div class="grade">
+        <p class="gradeText">@grade/10</p>
+        <img src="~/Images/Star.png" />
+    </div>
+    <p></p>
+</div>

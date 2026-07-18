@@ -1,0 +1,52 @@
+﻿@section Style{
+    <link rel="stylesheet" href="~/css/MainPage.css"/>
+}
+
+@section Header{
+    <h1>Библиотека игр</h1>
+}
+
+<div class="cards">
+<div class="card">
+    <a method="Post" asp-controller="FirstTask" asp-action="GameInfo" asp-route-id="1">
+        <img class="image" src="~/Images/Expedition/Expedition33.jpg" />
+        <h3>Expedition 33</h3>
+        <p>Об игре: Это сюжетная ролевая игра (CRPG) с уникальной пошаговой боевой системой и элементами реального времени. Сеттинг представляет собой мрачное фэнтези, вдохновленное французской Прекрасной эпохой</p>
+    </a>
+</div>
+<div class="card">
+    <a method="Post" asp-controller="FirstTask" asp-action="GameInfo" asp-route-id="2">
+    <img class="image" src="~/Images/Detroit/DetroitBecomeHuman.jpg" />
+    <h3>Detroit become human</h3>
+    <p>Об игре: Это интерактивное кино от студии Quantic Dream, действие которого разворачивается в 2038 году в Детройте. По сюжету человечество использует разумных андроидов в качестве слуг и рабочей силы. Из-за программного сбоя некоторые машины обретают свободу воли («девианты»)</p>
+    </a>
+</div>
+<div class="card">
+    <a method="Post" asp-controller="FirstTask" asp-action="GameInfo" asp-route-id="3">
+    <img class="image" src="~/Images/Dispatch/Dispatch.jpg" />
+    <h3>Dispatch</h3>
+    <p>Об игре: Это сюжетно-ориентированная супергеройская драма с элементами менеджмента. Главный герой, бывший супергерой, становится диспетчером в службе поддержки, управляя разношерстной командой бывших злодеев, которым дан шанс на искупление</p>
+    </a>
+</div>
+<div class="card">
+    <a asp-controller="FirstTask" asp-action="GameInfo" asp-route-id="4" >
+    <img class="image" src="~/Images/Cyberpunk/Cyberpunk2077.jpg" />
+    <h3>Cyberpunk 2077</h3>
+    </a>
+    <p>Об игре: Это приключенческая ролевая игра с открытым миром, созданная студией CD Projekt RED. Действие разворачивается в 2077 году в вымышленном североамериканском мегаполисе Найт-Сити, где власть принадлежит всемогущим корпорациям, а жизнь человека обесценена</p>
+</div>
+<div class="card">
+    <a method="Post" asp-controller="FirstTask" asp-action="GameInfo" asp-route-id="5">
+    <img class="image" src="~/Images/HeroesOfMightAndMagic/HeroesOfMightAndMagic.jpg" />
+    <h3>Heroes of Might and Magic, Olden Era</h3>
+    <p>Об игре: Это официальный приквел культовой серии пошаговых стратегий. Игроки исследуют глобальную карту, добывают ресурсы, развивают замки и собирают армии для тактических сражений на континенте Джадам</p>
+    </a>
+</div>
+<div class="card">
+     <a method="Post" asp-controller="FirstTask" asp-action="GameInfo" asp-route-id="6">
+    <img class="image" src="~/Images/Sekiro/Sekiro.jpg" />
+    <h3>Sekiro</h3>
+    <p>Об игре: Это хардкорный экшен от третьего лица от создателей Dark Souls и Bloodborne. Действие разворачивается в Японии эпохи Сэнгоку. Игрок управляет синоби по имени Волк, который спасает своего господина и мстит за отрубленную руку, замененную на протез с различными гаджетами</p>
+    </a>
+</div>
+</div>

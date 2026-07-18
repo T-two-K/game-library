@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/Layout.css"/>
+    @RenderSection("Style", required: false)
+</head>
+<body>
+    <header>
+        @RenderSection("Header", required: false)
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer style="text-align:center">
+        @ViewBag.Aythor @ViewBag.Year &copy;All rights defended
+    </footer>
+</body>
+</html>

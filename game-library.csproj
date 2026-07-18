@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="wwwroot\Images\Cyberpunk\Cyberpunk_Img1.webp" />
+		<None Remove="wwwroot\Images\Cyberpunk\Cyberpunk_Img2.webp" />
+		<None Remove="wwwroot\Images\Detroit\DetroitBecomeHuman_Img1.jpg" />
+		<None Remove="wwwroot\Images\Detroit\DetroitBecomeHuman_Img2.webp" />
+		<None Remove="wwwroot\Images\Dispatch\Dispatch_Img1.jpg" />
+		<None Remove="wwwroot\Images\Dispatch\Dispatch_Img2.jpg" />
+		<None Remove="wwwroot\Images\Expedition\Expedition33_Img1.jpg" />
+		<None Remove="wwwroot\Images\Expedition\Expedition33_Img2.jpg" />
+		<None Remove="wwwroot\Images\HeroesOfMightAndMagic\HeroesOfMightAndMagic_Img1.webp" />
+		<None Remove="wwwroot\Images\HeroesOfMightAndMagic\HeroesOfMightAndMagic_Img2.webp" />
+		<None Remove="wwwroot\Images\Sekiro\Sekiro_Img1.jpg" />
+		<None Remove="wwwroot\Images\Sekiro\Sekiro_Img2.png" />
+		<None Remove="wwwroot\Images\Star.png" />
+		<None Remove="wwwroot\Images\Cyberpunk2077.jpg" />
+		<None Remove="wwwroot\Images\DetroitBecomeHuman.jpg" />
+		<None Remove="wwwroot\Images\Dispatch.jpg" />
+		<None Remove="wwwroot\Images\Expedition33.jpg" />
+		<None Remove="wwwroot\Images\HeroesOfMightAndMagic.jpg" />
+		<None Remove="wwwroot\Images\Sekiro.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="wwwroot\Images\Cyberpunk\Cyberpunk2077.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Cyberpunk\Cyberpunk_Img1.webp">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Cyberpunk\Cyberpunk_Img2.webp">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Detroit\DetroitBecomeHuman.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Detroit\DetroitBecomeHuman_Img1.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Detroit\DetroitBecomeHuman_Img2.webp">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Dispatch\Dispatch.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Dispatch\Dispatch_Img1.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Dispatch\Dispatch_Img2.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Expedition\Expedition33.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Expedition\Expedition33_Img1.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Expedition\Expedition33_Img2.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\HeroesOfMightAndMagic\HeroesOfMightAndMagic.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\HeroesOfMightAndMagic\HeroesOfMightAndMagic_Img1.webp">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\HeroesOfMightAndMagic\HeroesOfMightAndMagic_Img2.webp">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Sekiro\Sekiro_Img1.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Sekiro\Sekiro_Img2.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Sekiro\Sekiro.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="wwwroot\Images\Star.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+</Project>

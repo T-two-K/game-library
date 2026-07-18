@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "H of M and M";
+    int grade = 8;
+}
+
+@section Header{
+    <h1>Heroes of Might and Magic Olden Era</h1>
+}
+
+@section Style{
+   <link rel="stylesheet" href="~/css/GamePage.css"/>
+}
+
+<div class="mainPart">
+    <div class="part">
+        <img src="~/Images/HeroesOfMightAndMagic/HeroesOfMightAndMagic_Img1.webp"/>
+        <p class="description">
+            Это официальный приквел культовой серии пошаговых стратегий.
+        </p>
+    </div>
+    <div class="part">
+        <p class="description">
+           Игроки исследуют глобальную карту, добывают ресурсы, развивают замки и собирают армии для тактических сражений на континенте Джадам
+        </p>
+        <img src="~/Images/HeroesOfMightAndMagic/HeroesOfMightAndMagic_Img2.webp"/>
+    </div>
+    <div class="grade">
+        <p class="gradeText">@grade/10</p>
+        <img src="~/Images/Star.png" />
+    </div>
+</div>

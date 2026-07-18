@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Cyberpunk";
+    int grade = 8;
+}
+
+@section Header{
+    <h1>Cyberpunk 2077</h1>
+}
+
+@section Style{
+    <link rel="stylesheet" href="~/css/GamePage.css" />
+}
+
+<div class="mainPart">
+    <div class="part">
+        <img src="~/Images/Cyberpunk/Cyberpunk_Img1.webp" />
+        <p class="description">
+            Это приключенческая ролевая игра с открытым миром, созданная студией CD Projekt RED.
+        </p>
+    </div>
+    <div class="part">
+        <p class="description">
+           Действие разворачивается в 2077 году в вымышленном североамериканском мегаполисе Найт-Сити, где власть принадлежит всемогущим корпорациям, а жизнь человека обесценена
+        </p>
+        <img src="~/Images/Cyberpunk/Cyberpunk_Img2.webp" />
+    </div>
+    <div class="grade">
+        <p class="gradeText">@grade/10</p>
+        <img src="~/Images/Star.png" />
+    </div>
+</div>

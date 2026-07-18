@@ -1,0 +1,18 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    gap: 40px;
+}
+
+footer{
+    padding: 1%;
+    background: #999;
+    box-shadow: 0px -5px 7px rgb(0,0,0,0.15);
+}
